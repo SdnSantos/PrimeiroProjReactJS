@@ -61,6 +61,7 @@ export const SubmitButton = styled.button.attrs(props => ({
     opacity: 0.6;
   }
 
+  /* condicional */
   ${props =>
     props.loading &&
     css`
